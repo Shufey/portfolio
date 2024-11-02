@@ -1,0 +1,28 @@
+.hero-container {
+    position: relative; /* Ensure the parent container is positioned */
+  }
+  
+  .hero-container::after,
+  .hero-container::before {
+    content: "";
+    width: 28.125rem; /* Tailwind does not directly support this size */
+    height: 28.125rem; /* Tailwind does not directly support this size */
+    border-radius: 28.125rem; /* This is equivalent to a full border-radius */
+    background: #7c66e3; /* Tailwind: bg-purple-500 or your custom purple color */
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+    
+    /* Use z-index for stacking context */
+  }
+  
+  .hero-container::after {
+    top: -3rem; /* Positioning for after element */
+    left: -5rem; /* Positioning for after element */
+  }
+  
+  .hero-container::before {
+    bottom: 2rem; /* Positioning for before element */
+    right: 0rem; /* Positioning for before element */
+  }
+  

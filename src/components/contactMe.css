@@ -1,0 +1,23 @@
+.contact-container {
+    position: relative;
+}
+
+.contact-container::after,
+.contact-container::before {
+  content: "";
+  width: 14rem;
+  height: 14rem;
+  border-radius: 28.125rem;
+  background: #9b87f1;
+  position: absolute;
+  z-index: -1;
+  filter: blur(200px);
+}
+
+.contact-container::after {
+  top: -3rem;
+  left: -5rem;
+}
+
+
+
