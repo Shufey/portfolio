@@ -6,7 +6,7 @@ import projectThree from "../assets/project-3.png"
 
 const Projects = () => {
   return (
-    <div className="text-white w-full project-container ">
+    <div className="text-white w-full project-container md:h-screen ">
       <h5 className="text-2xl font-semibold mb-14 md:ml-0 ml-8">Projects</h5>
       <div className=" flex md:flex-row flex-col-reverse justify-center w-full items-center mb-12">
         <div className="flex flex-col gap-4 justify-center items-start md:m-0 md:p-0 p-4 m-8">
