@@ -15,7 +15,7 @@ const Navbar = () => {
     <>
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="bg-[rgba(0,0,0,0.8)] py-2 px-0 sticky top-0 z-30 backdrop-blur-50">
-        <div className="max-w-[1300px] flex items-center justify-end py-4 px-0 my-0 mx-auto ">
+        <div className="w-full flex items-center justify-end py-4 px-0 my-0 mx-auto ">
 
           <ul className="hidden md:flex items-center gap-2 list-none">
             <li className="my-0 mx-6">

@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 const MobileNav = ({ isOpen, toggleMenu }) => {
   return (
     <div
-      className={`fixed top-0 right-0 h-screen w-[60vw] bg-[rgba(0,0,0,0.3)] z-[999] shadow-[0px_29px_80px_rgba(0,0,0,0.3)] transition-transform duration-300 transform ${
+      className={`fixed top-0 right-0 h-lvh w-full overflow-y-hidden bg-[rgba(0,0,0,0.3)] z-[999] shadow-[0px_29px_80px_rgba(0,0,0,0.3)] transition-transform duration-300 transform ${
         isOpen ? "translate-x-0 opacity-100 md:hidden" : "translate-x-full opacity-0 md:hidden"
       }`}
       onClick={toggleMenu}
