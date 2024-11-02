@@ -1,5 +1,8 @@
 import React from "react";
 import "./projects.css";
+import projectOne from "../assets/project-1.png"
+import projectTwo from "../assets/project-2.png"
+import projectThree from "../assets/project-3.png"
 
 const Projects = () => {
   return (
@@ -12,7 +15,7 @@ const Projects = () => {
             Jot-Box is a sleek note-saving app built with React, Tailwind CSS,
             and React Redux. <br />
             It uses the Local Storage API to securely save your notes in your
-            browser, making it easy to organize your thoughts and access them
+            browser, making it easy to organize your thoughts and access them 
             instantly whenever you need.
           </p>
           <div className="flex gap-3">
@@ -39,7 +42,7 @@ const Projects = () => {
         </div>
         <div className=" w-full md:w-[50%]">
           <img
-            src="./src/assets/project-1.png"
+            src={projectOne}
             alt="project-1"
             className="w-full"
           />
@@ -49,8 +52,8 @@ const Projects = () => {
       <div className="flex md:flex-row flex-col justify-center w-full items-center mb-12">
         <div className=" w-full md:w-[50%]">
           <img
-            src="./src/assets/project-1.png"
-            alt="project-1"
+            src={projectTwo}
+            alt="project-2"
             className="w-full"
           />
         </div>
@@ -124,8 +127,8 @@ const Projects = () => {
         </div>
         <div className=" w-full md:w-[50%]">
           <img
-            src="./src/assets/project-1.png"
-            alt="project-1"
+            src={projectThree}
+            alt="project-3"
             className="w-full"
           />
         </div>

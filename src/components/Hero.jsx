@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import shafiPhoto from "../assets/shafi-photo.png"
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
           <div className="w-[70%] rounded-full overflow-hidden flex items-center justify-center">
             <img
               className="w-full h-full object-cover"
-              src="./src/assets/shafi-photo.png"
+              src={shafiPhoto}
               alt=""
             />
           </div>
