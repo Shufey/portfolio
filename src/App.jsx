@@ -12,7 +12,7 @@ function App() {
     <>
       <div >
         <Navbar />
-        <div className="overflow-hidden px-8">
+        <div className="overflow-hidden md:px-32 px-4">
           <Element name="hero">
             <Hero />
           </Element>

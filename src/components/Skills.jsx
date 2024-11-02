@@ -14,7 +14,7 @@ const Skills = () => {
 
 
   return (
-    <div className="text-white">
+    <div className="text-white w-full h-screen">
       <section className="skills-container my-16 mx-0 relative">
         <h5 className="text-2xl font-semibold mb-14">Skills</h5>
         <div className="skills-content flex items-start gap-12">
